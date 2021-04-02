@@ -50,14 +50,3 @@ elif x == "16":
     print(base16_message)
 else:
     print("Not found")
-    elif x == "16":
-        message = txt.decode('utf-8')
-        message_bytes = message.encode('ascii')
-        base16_bytes = base64.b16encode(message_bytes)
-        base16_message = base16_bytes.decode('ascii')
-        print(base16_message)
-    else:
-        print("Not found")
-while to_do == "keep":
-    to_do = input("keep && exit: ")
-    crypt()
