@@ -1,7 +1,7 @@
 #MOUCHQUELITA
 import hashlib
 import base64
-print("Hasher By MOUCHQUELITA")
+print("Hasher By MOUCHQUELITA\n\n")
 txt = input("\033[1;31;1m text: ").encode('utf-8')
 txt_de = txt.decode('utf-8').encode('ascii')
 Base64 = base64.b64encode(txt_de).decode('ascii')
