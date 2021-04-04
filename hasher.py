@@ -8,7 +8,7 @@ except Exception as e :
     print(e)
     exit()
 
-if platform.system().startswith("Linux", "Termux") :
+if platform.system().startswith("Linux") :
 	red , green , yellow , blue , endc = '\033[91m' , '\033[92m' ,'\033[93m' , '\033[94m' , '\033[0m'
 else :
 	red = green = yellow = blue = endc = ""
