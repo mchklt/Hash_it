@@ -1,3 +1,4 @@
+#MOUCHQUELITA
 try :
 
     import hashlib
