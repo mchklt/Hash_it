@@ -12,8 +12,6 @@ if platform.system().startswith("Linux", "Termux") :
 	red , green , yellow , blue , endc = '\033[91m' , '\033[92m' ,'\033[93m' , '\033[94m' , '\033[0m'
 else :
 	red = green = yellow = blue = endc = ""
-    function
-
 print(green + '''
     1-  MD5
     2-  SHA1
